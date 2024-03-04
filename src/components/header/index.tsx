@@ -5,8 +5,8 @@ import { IconSearch } from "@tabler/icons-react";
 
 const Header = () => {
   return (
-    <header className="mx-auto lg:p-10 p-4 grid grid-cols-3">
-      <div className="flex items-center gap-4">
+    <header className="mx-auto lg:p-10 p-4 grid grid-cols-2 md:grid-cols-3">
+      <div className="md:flex items-center gap-4 hidden">
         <Link isBlock href="/planner" color="success">
           Trip Planner
         </Link>
@@ -35,7 +35,7 @@ const Header = () => {
           startContent={
             <IconSearch className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
           }
-          className="max-w-fit"
+          className="max-w-fit hidden md:block"
         />
         <Button as={Link} variant="ghost" href="/login" color="success">
           Login
