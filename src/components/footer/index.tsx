@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col gap-20">
         <div className="flex items-center justify-between">
           <h2 className="font-bold text-3xl">Bamboo Travel</h2>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 grow justify-center">
             <Link href="/company" color="foreground">
               Company
             </Link>
@@ -28,6 +28,20 @@ const Footer = () => {
             </Link>
             <Link href="/how-we-work" color="foreground">
               How we work
+            </Link>
+          </div>
+          <div className="flex items-center gap-4">
+            <Link href="/instagram" color="foreground">
+              <IconBrandInstagram />
+            </Link>
+            <Link href="/facebook" color="foreground">
+              <IconBrandFacebook />
+            </Link>
+            <Link href="/meta" color="foreground">
+              <IconBrandMeta />
+            </Link>
+            <Link href="/youtube" color="foreground">
+              <IconBrandYoutube />
             </Link>
           </div>
         </div>
@@ -47,17 +61,20 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/instagram" color="foreground">
-              <IconBrandInstagram />
+            <Link href="/company" color="foreground" className="text-xs">
+              Company
             </Link>
-            <Link href="/facebook" color="foreground">
-              <IconBrandFacebook />
+            <Link href="/about" color="foreground" className="text-xs">
+              About
             </Link>
-            <Link href="/meta" color="foreground">
-              <IconBrandMeta />
+            <Link href="/careers" color="foreground" className="text-xs">
+              Careers
             </Link>
-            <Link href="/youtube" color="foreground">
-              <IconBrandYoutube />
+            <Link href="/blog" color="foreground" className="text-xs">
+              Blog
+            </Link>
+            <Link href="/how-we-work" color="foreground" className="text-xs">
+              How we work
             </Link>
           </div>
         </div>
