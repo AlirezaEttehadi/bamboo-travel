@@ -17,7 +17,7 @@ const Header = () => {
           Wishlist
         </Link>
       </div>
-      <div className="flex justify-center">
+      <div className="flex md:justify-center">
         <Link href="/">
           <Image
             src="/bamboo-travel-logo.png"
