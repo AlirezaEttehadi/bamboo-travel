@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Input, Link, Image } from "@nextui-org/react";
 import { IconSearch } from "@tabler/icons-react";
+import NextImage from "next/image";
 
 const Header = () => {
   return (
@@ -21,8 +22,9 @@ const Header = () => {
           <Image
             src="/bamboo-travel-logo.png"
             alt="Bamboo Travel Logo"
-            width={200}
-            height={200}
+            width={192}
+            height={192}
+            as={NextImage}
           />
         </Link>
       </div>
