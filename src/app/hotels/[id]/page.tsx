@@ -11,6 +11,7 @@ import {
 
 import Rating from "@bamboo/components/rating";
 import Link from "next/link";
+import UserComment from "@bamboo/components/user-comment";
 
 export default function Hotel() {
   return (
@@ -90,25 +91,7 @@ export default function Hotel() {
             <Tab key="reviews" title="Customer Reviews">
               <div className="flex flex-col gap-4 divide-y">
                 {Array.of(1, 2, 3).map((item) => {
-                  return (
-                    <div
-                      key={item}
-                      className="flex py-4 flex-col items-start gap-1"
-                    >
-                      <User
-                        name="Jane Doe"
-                        description="Product Designer"
-                        avatarProps={{
-                          src: "/user.avif",
-                        }}
-                      />
-                      <Rating rate={4} />
-                      <p className="text-gray-500 text-sm">
-                        My third time there.Keeping the highest
-                        level.Location,staff,room perfect as always
-                      </p>
-                    </div>
-                  );
+                  return <UserComment key={item} />;
                 })}
               </div>
             </Tab>
