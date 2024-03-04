@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Input, Link } from "@nextui-org/react";
-import Image from "next/image";
+import { Button, Input, Link, Image } from "@nextui-org/react";
 import { IconSearch } from "@tabler/icons-react";
 
 const Header = () => {
@@ -24,7 +23,6 @@ const Header = () => {
             alt="Bamboo Travel Logo"
             width={200}
             height={200}
-            priority
           />
         </Link>
       </div>
