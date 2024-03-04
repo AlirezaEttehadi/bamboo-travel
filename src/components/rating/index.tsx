@@ -8,9 +8,10 @@ type Props = {
 const Rating: FC<Props> = ({ rate }) => {
   return (
     <div className="flex space-x-1">
-      {Array.of(1, 2, 3, 4, 5).map((_item, index) => {
+      {Array.of(1, 2, 3, 4, 5).map((item, index) => {
         return (
           <span
+            key={item}
             className={clsx({
               "text-yellow-300": rate > index,
               "text-gray-300": rate <= index,
