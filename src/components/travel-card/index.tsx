@@ -7,7 +7,7 @@ import Rating from "../rating";
 
 const TravelCard = () => {
   return (
-    <Card isPressable as={Link} href="/sample">
+    <Card isPressable as={Link} href="/hotels/id">
       <CardHeader className="py-2 px-4 flex-col items-start gap-2">
         <h4 className="font-bold text-large">The Plaza Hotel</h4>
         <div className="text-tiny uppercase font-bold">7,300 $</div>
