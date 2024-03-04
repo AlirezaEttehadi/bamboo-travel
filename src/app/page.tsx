@@ -1,3 +1,9 @@
+import Hero from "@bamboo/components/hero";
+
 export default function Home() {
-  return <main>Home page</main>;
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
 }
