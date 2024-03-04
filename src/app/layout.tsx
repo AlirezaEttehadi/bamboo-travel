@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 
-import Header from "bamboo/components/header";
-import Footer from "bamboo/components/footer";
+import Header from "@bamboo/components/header";
+import Footer from "@bamboo/components/footer";
+import { NextUIProviders } from "@bamboo/context/next-ui.context";
 
 import "./globals.css";
 
@@ -20,13 +21,13 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <head>
         <link rel="shortcut icon" type="image/jpg" href="/bamboo-favicon.png" />
       </head>
       <body className={inter.className}>
         <Header />
-        {children}
+        <NextUIProviders>{children}</NextUIProviders>
         <Footer />
       </body>
     </html>
