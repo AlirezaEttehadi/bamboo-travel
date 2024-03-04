@@ -18,7 +18,7 @@ export default function NotFound() {
           as={Link}
           className="mt-6"
           variant="flat"
-          href="/login"
+          href="/"
           color="success"
         >
           Go back home
