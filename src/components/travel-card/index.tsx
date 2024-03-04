@@ -13,13 +13,13 @@ const TravelCard = () => {
         <div className="text-tiny uppercase font-bold">7,300 $</div>
         <Rating rate={4} />
       </CardHeader>
-      <CardBody className="overflow-visible p-0">
+      <CardBody className="p-0">
         <Image
           alt="Card background"
-          className="object-cover rounded-xl w-full"
+          className="object-cover w-full rounded-xl"
           src="/hotel.jpg"
-          width={800}
-          height={800}
+          width={600}
+          height={500}
           as={NextImage}
         />
       </CardBody>
