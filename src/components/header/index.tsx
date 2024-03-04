@@ -25,6 +25,7 @@ const Header = () => {
             width={192}
             height={192}
             as={NextImage}
+            className="h-10 object-contain"
           />
         </Link>
       </div>
