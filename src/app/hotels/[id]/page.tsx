@@ -17,14 +17,17 @@ export default function Hotel() {
   return (
     <main className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <Image
-          alt="Card background"
-          className="object-cover rounded-xl"
-          src="/hotel.jpg"
-          width={600}
-          height={500}
-          as={NextImage}
-        />
+        <div className="overflow-hidden">
+          <Image
+            alt="Card background"
+            className="object-cover w-full rounded-xl"
+            src="/hotel.jpg"
+            width={600}
+            height={500}
+            as={NextImage}
+            loading="eager"
+          />
+        </div>
         <div>
           <div className="flex flex-col gap-4 divide-y">
             <div className="flex flex-col gap-4 py-4">
