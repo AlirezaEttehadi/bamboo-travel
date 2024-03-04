@@ -38,7 +38,12 @@ const Header = () => {
         <Button as={Link} variant="ghost" href="/login" color="success">
           Login
         </Button>
-        <Button as={Link} href="/register" color="success">
+        <Button
+          as={Link}
+          href="/register"
+          color="success"
+          className="md:flex hidden"
+        >
           Register
         </Button>
       </div>

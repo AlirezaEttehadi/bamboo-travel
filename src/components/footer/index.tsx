@@ -26,9 +26,6 @@ const Footer = () => {
             <Link href="/blog" color="foreground">
               Blog
             </Link>
-            <Link href="/how-we-work" color="foreground">
-              How we work
-            </Link>
           </div>
           <div className="flex items-center gap-4">
             <Link href="/instagram" color="foreground">
