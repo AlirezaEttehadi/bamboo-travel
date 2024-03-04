@@ -15,18 +15,16 @@ import Link from "next/link";
 export default function Hotel() {
   return (
     <main className="container mx-auto px-4">
-      <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <Image
+          alt="Card background"
+          className="object-cover rounded-xl"
+          src="/hotel.jpg"
+          width={600}
+          height={500}
+          as={NextImage}
+        />
         <div>
-          <Image
-            alt="Card background"
-            className="object-cover w-full rounded-xl"
-            src="/hotel.jpg"
-            width={600}
-            height={500}
-            as={NextImage}
-          />
-        </div>
-        <div className="row-span-1">
           <div className="flex flex-col gap-4 divide-y">
             <div className="flex flex-col gap-4 py-4">
               <Rating rate={5} />
@@ -87,7 +85,7 @@ export default function Hotel() {
             </div>
           </div>
         </div>
-        <div className="row-span-2 order-2 md:order-3">
+        <div className="h-[550px]">
           <Tabs>
             <Tab key="reviews" title="Customer Reviews">
               <div className="flex flex-col gap-4 divide-y">
