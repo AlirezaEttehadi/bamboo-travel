@@ -10,7 +10,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-green-100 p-10">
-      <div className="container mx-auto flex flex-col gap-20">
+      <div className="container mx-auto flex flex-col gap-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <h2 className="font-bold text-3xl">Bamboo Travel</h2>
           <div className="flex items-center gap-4 grow justify-center">
