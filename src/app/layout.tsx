@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 
 import Header from "@bamboo/components/header";
 import Footer from "@bamboo/components/footer";
-import { NextUIProviders } from "@bamboo/context/next-ui.context";
+import { NextUIContext } from "@bamboo/context/next-ui.context";
 
 import "./globals.css";
 
@@ -26,9 +26,11 @@ export default function RootLayout({
         <link rel="shortcut icon" type="image/jpg" href="/bamboo-favicon.png" />
       </head>
       <body className={inter.className}>
-        <Header />
-        <NextUIProviders>{children}</NextUIProviders>
-        <Footer />
+        <NextUIContext>
+          <Header />
+          {children}
+          <Footer />
+        </NextUIContext>
       </body>
     </html>
   );
