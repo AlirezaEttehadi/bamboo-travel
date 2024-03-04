@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Image,
-  CardFooter,
-  Button,
-} from "@nextui-org/react";
+import { Card, Image, CardFooter, Button } from "@nextui-org/react";
 
 const TravelCard = () => {
   return (
