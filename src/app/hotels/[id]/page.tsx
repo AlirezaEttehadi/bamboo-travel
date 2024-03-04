@@ -31,7 +31,7 @@ export default function Hotel() {
               <Rating rate={5} />
               <h1 className="font-bold text-3xl">The Plaza Hotel</h1>
               <p className="text-gray-600 text-sm font-medium">
-                Experience New York's Iconic Luxury Hotel on Central Park South
+                {`Experience New York's Iconic Luxury Hotel on Central Park South`}
               </p>
               <Button color="success" size="lg" fullWidth>
                 Book for just 7300$
@@ -45,8 +45,8 @@ export default function Hotel() {
                   restaurant.
                 </li>
                 <li className="text-gray-600 text-sm">
-                  There is a hairdresser's, Hammam, a spa and wellness centre at
-                  the property.
+                  {`There is a hairdresser's, Hammam, a spa and wellness centre at
+                  the property.`}
                 </li>
                 <li className="text-gray-600 text-sm">
                   Couples particularly like the location — they rated it 8.7 for
