@@ -31,6 +31,53 @@ export const hotels = [
         description: `Marrakech Plaza is a 5-minute walk from Hôtel Racine, while Carré Eden Shopping Center is a 10-minute walk away. The nearest airport is Marrakech-Menara Airport, 4 km from the property.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -58,6 +105,53 @@ export const hotels = [
       {
         id: 5,
         description: `Conveniently located near major attractions, making it an ideal choice for leisure and business.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -89,6 +183,53 @@ export const hotels = [
         description: `Unmatched hospitality and personalized services to make your stay truly memorable.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -116,6 +257,53 @@ export const hotels = [
       {
         id: 5,
         description: `Strategically located near major attractions for a perfect blend of leisure and business.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -147,6 +335,53 @@ export const hotels = [
         description: `Centrally located, providing easy access to cultural landmarks and entertainment.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -174,6 +409,53 @@ export const hotels = [
       {
         id: 5,
         description: `Strategically located for both business and leisure travelers, with easy access to key destinations.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -205,6 +487,53 @@ export const hotels = [
         description: `Centrally located, providing easy access to cultural landmarks, shopping, and entertainment.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -232,6 +561,53 @@ export const hotels = [
       {
         id: 5,
         description: `Conveniently located near major business and leisure hubs for a seamless stay.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -263,6 +639,53 @@ export const hotels = [
         description: `Conveniently situated for both business and leisure travelers with easy access to key attractions.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -290,6 +713,53 @@ export const hotels = [
       {
         id: 5,
         description: `Centrally located for easy access to cultural attractions, shopping, and entertainment.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -321,6 +791,53 @@ export const hotels = [
         description: `Prime location for business and leisure travelers, with easy access to key destinations.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 12,
@@ -348,6 +865,53 @@ export const hotels = [
       {
         id: 5,
         description: `Convenient location for those seeking a balance between business and well-being.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -379,6 +943,53 @@ export const hotels = [
         description: `Ideal location for both business and leisure travelers, with easy access to key attractions.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 14,
@@ -406,6 +1017,53 @@ export const hotels = [
       {
         id: 5,
         description: `Conveniently located for both business and leisure travelers, with easy access to attractions.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },
@@ -437,6 +1095,53 @@ export const hotels = [
         description: `Centrally located for easy access to business hubs, shopping, and cultural attractions.`,
       },
     ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
+      },
+    ],
   },
   {
     id: 16,
@@ -464,6 +1169,53 @@ export const hotels = [
       {
         id: 5,
         description: `Convenient location for both business and leisure travelers, with easy access to key destinations.`,
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        comment: `My third time there.Keeping the highest level.Location,staff,room
+        perfect as always.`,
+        rate: 4,
+        author: {
+          id: 1,
+          name: "Jane Doe",
+          career: "Product Designer",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 2,
+        comment: `Absolutely loved my stay at this hotel! The attention to detail and customer service were outstanding. The room was spacious and beautifully decorated. Will definitely be coming back.`,
+        rate: 5,
+        author: {
+          id: 2,
+          name: "John Smith",
+          career: "Travel Blogger",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 3,
+        comment: `Had a fantastic experience at this hotel. The staff went above and beyond to make our stay memorable. The amenities were top-notch, and the location was perfect for exploring the city. Highly recommend!`,
+        rate: 5,
+        author: {
+          id: 3,
+          name: "Alex Johnson",
+          career: "Tech Entrepreneur",
+          image: "/user.avif",
+        },
+      },
+      {
+        id: 4,
+        comment: `The Plaza Hotel exceeded my expectations! The room was luxurious, and the on-site restaurant served delicious meals. The central location made it easy to explore the city. Will definitely be my go-to hotel in the future.`,
+        rate: 5,
+        author: {
+          id: 4,
+          name: "Emily Turner",
+          career: "Marketing Manager",
+          image: "/user.avif",
+        },
       },
     ],
   },

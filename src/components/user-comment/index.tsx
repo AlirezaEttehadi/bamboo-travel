@@ -15,7 +15,7 @@ const UserComment = () => {
       <Rating rate={4} />
       <p className="text-gray-500 text-sm">
         My third time there.Keeping the highest level.Location,staff,room
-        perfect as always
+        perfect as always.
       </p>
     </div>
   );
