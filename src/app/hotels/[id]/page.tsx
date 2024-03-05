@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Image, Tab, Tabs, User } from "@nextui-org/react";
+import { Button, Image, Tab, Tabs } from "@nextui-org/react";
 import NextImage from "next/image";
 import {
   IconBrandFacebook,
