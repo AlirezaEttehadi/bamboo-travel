@@ -1,9 +1,13 @@
 "use client";
 
 import { AppProgressBar } from "next-nprogress-bar";
-import { ReactNode } from "react";
+import { FC, ReactNode } from "react";
 
-export function ProgressContext({ children }: { children: ReactNode }) {
+type Props = {
+  children: ReactNode;
+};
+
+export const ProgressContext: FC<Props> = ({ children }) => {
   return (
     <>
       <AppProgressBar
@@ -15,4 +19,4 @@ export function ProgressContext({ children }: { children: ReactNode }) {
       {children}
     </>
   );
-}
+};
