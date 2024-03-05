@@ -15,7 +15,7 @@ type Props = {
   };
 };
 
-const TravelCard: FC<Props> = ({ hotel }) => {
+const HotelCard: FC<Props> = ({ hotel }) => {
   return (
     <Card isPressable as={Link} href={`/hotels/${hotel.id}`}>
       <CardHeader className="py-2 px-4 flex-col items-start gap-2">
@@ -37,4 +37,4 @@ const TravelCard: FC<Props> = ({ hotel }) => {
   );
 };
 
-export default TravelCard;
+export default HotelCard;
