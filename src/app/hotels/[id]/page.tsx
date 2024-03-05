@@ -1,5 +1,8 @@
 "use client";
 
+// https://github.com/nextui-org/nextui/issues/1403#issuecomment-1678863519
+// Team of Next.ui: we are waiting for the next react-aria release to get this issue fixed, the current collection approach is compiled by next.js in a different way so it removes the use client; directive, in the meantime please add the directive on top of your files for collection based components -> Table, Accordion, Dropdown, and Tabs.
+
 import { Button, Image, Tab, Tabs } from "@nextui-org/react";
 import NextImage from "next/image";
 import {
