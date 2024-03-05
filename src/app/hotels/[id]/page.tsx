@@ -8,12 +8,23 @@ import {
   IconBrandMeta,
   IconBrandYoutube,
 } from "@tabler/icons-react";
+import { notFound } from "next/navigation";
+import Link from "next/link";
 
 import Rating from "@bamboo/components/rating";
-import Link from "next/link";
 import UserComment from "@bamboo/components/user-comment";
+import { hotels } from "@bamboo/data/hotels";
 
-export default function Hotel() {
+export default function Hotel({ params }: { params: { id: string } }) {
+  const hotelID = params.id;
+
+  // it is not the correct way of accessing the hotel data in real world. We should call a service for the given id of hotel and receive just the selected hotel data.
+  const selectedHotel = hotels.find((hotel) => hotel.id === +hotelID);
+
+  if (!selectedHotel) {
+    notFound();
+  }
+
   return (
     <main className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -21,7 +32,7 @@ export default function Hotel() {
           <Image
             alt="Card background"
             className="object-cover w-full rounded-xl"
-            src="/hotel.jpg"
+            src={selectedHotel.image}
             width={600}
             height={500}
             as={NextImage}
@@ -32,42 +43,21 @@ export default function Hotel() {
           <div className="flex flex-col gap-4 divide-y">
             <div className="flex flex-col gap-4 py-4">
               <Rating rate={5} />
-              <h1 className="font-bold text-3xl">The Plaza Hotel</h1>
-              <p className="text-gray-600 text-sm font-medium">
-                {`Experience New York's Iconic Luxury Hotel on Central Park South`}
-              </p>
+              <h1 className="font-bold text-3xl">{selectedHotel.name}</h1>
               <Button color="success" size="lg" fullWidth>
-                Book for just 7300$
+                Book for just {selectedHotel.price}
               </Button>
             </div>
             <div className="py-4 flex flex-col gap-4">
               <h6 className="text-sm text-gray-600 font-medium">Highlights</h6>
               <ul className="list-disc list-inside gap-4 flex flex-col">
-                <li className="text-gray-600 text-sm">
-                  Guests can enjoy international cuisine at the on-site
-                  restaurant.
-                </li>
-                <li className="text-gray-600 text-sm">
-                  {`There is a hairdresser's, Hammam, a spa and wellness centre at
-                  the property.`}
-                </li>
-                <li className="text-gray-600 text-sm">
-                  Couples particularly like the location — they rated it 8.7 for
-                  a two-person trip.
-                </li>
-                <li className="text-gray-600 text-sm">All rooms have a TV.</li>
-                <li className="text-gray-600 text-sm">
-                  Offering an outdoor pool and sun terrace, Hôtel Racine is
-                  located in Marrakech, a 5-minute drive from Djemaa El Fna
-                  square. The property offers a fitness centre and a free Wi-Fi
-                  access in all areas.
-                </li>
-                <li className="text-gray-600 text-sm">
-                  Marrakech Plaza is a 5-minute walk from Hôtel Racine, while
-                  Carré Eden Shopping Center is a 10-minute walk away. The
-                  nearest airport is Marrakech-Menara Airport, 4 km from the
-                  property.
-                </li>
+                {selectedHotel.highlights.map((item) => {
+                  return (
+                    <li key={item.id} className="text-gray-600 text-sm">
+                      {item.description}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
             <div className="py-4 flex flex-col gap-4">
@@ -89,12 +79,12 @@ export default function Hotel() {
             </div>
           </div>
         </div>
-        <div className="h-[550px]">
+        <div>
           <Tabs>
             <Tab key="reviews" title="Customer Reviews">
               <div className="flex flex-col gap-4 divide-y">
-                {Array.of(1, 2, 3).map((item) => {
-                  return <UserComment key={item} />;
+                {selectedHotel.comments.map((comment) => {
+                  return <UserComment key={comment.id} comment={comment} />;
                 })}
               </div>
             </Tab>
