@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 import Header from "@bamboo/components/header";
 import Footer from "@bamboo/components/footer";
 import { NextUIContext } from "@bamboo/context/next-ui.context";
+import { ProgressContext } from "@bamboo/context/progress.context";
 
 import "./globals.css";
 
@@ -27,9 +28,11 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <NextUIContext>
-          <Header />
-          {children}
-          <Footer />
+          <ProgressContext>
+            <Header />
+            {children}
+            <Footer />
+          </ProgressContext>
         </NextUIContext>
       </body>
     </html>
