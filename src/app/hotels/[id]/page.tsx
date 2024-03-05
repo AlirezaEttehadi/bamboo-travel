@@ -79,7 +79,7 @@ export default function Hotel({ params }: { params: { id: string } }) {
             </div>
           </div>
         </div>
-        <div>
+        <div className="h-[800px]">
           <Tabs>
             <Tab key="reviews" title="Customer Reviews">
               <div className="flex flex-col gap-4 divide-y">
