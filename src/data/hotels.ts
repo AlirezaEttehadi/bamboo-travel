@@ -78,6 +78,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 2,
@@ -152,6 +169,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -230,6 +264,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 4,
@@ -304,6 +355,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -382,6 +450,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 6,
@@ -456,6 +541,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -534,6 +636,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 8,
@@ -608,6 +727,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -686,6 +822,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 10,
@@ -760,6 +913,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -838,6 +1008,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 12,
@@ -912,6 +1099,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -990,6 +1194,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 14,
@@ -1064,6 +1285,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },
@@ -1142,6 +1380,23 @@ export const hotels = [
         },
       },
     ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
+      },
+    ],
   },
   {
     id: 16,
@@ -1216,6 +1471,23 @@ export const hotels = [
           career: "Marketing Manager",
           image: "/user.avif",
         },
+      },
+    ],
+    faq: [
+      {
+        id: 1,
+        title: `Can I modify the dates of my reservation?`,
+        description: `The possibility of modifying your reservation dates is contingent upon the specific policies associated with your booking. To explore available options, kindly log in using your Booking.com account or utilize your confirmation number and PIN. Once logged in, select the reservation you wish to alter, and you'll be guided through the available choices.`,
+      },
+      {
+        id: 2,
+        title: `What is the cancellation policy for my booking?`,
+        description: `Cancellation policies vary depending on the type of reservation you've made. For detailed information about the cancellation policy associated with your booking, please refer to your Booking.com account or use your confirmation number and PIN to access the specific reservation details. This will provide you with insights into any potential fees or restrictions related to cancellations.`,
+      },
+      {
+        id: 3,
+        title: `How do I contact customer support for further assistance?`,
+        description: `If you require additional assistance or have specific inquiries about your booking, our customer support team is ready to help. You can reach us by visiting the "Contact Us" section on the Booking.com website or by calling our dedicated customer support hotline. Be sure to have your booking details on hand for a quicker and more personalized assistance experience.`,
       },
     ],
   },

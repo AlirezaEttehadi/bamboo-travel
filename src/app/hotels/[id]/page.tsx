@@ -90,18 +90,14 @@ export default function Hotel({ params }: { params: { id: string } }) {
             </Tab>
             <Tab key="faq" title="FAQ">
               <div className="flex flex-col gap-8">
-                {Array.of(1, 2, 3).map((item) => {
+                {selectedHotel.faq.map((item) => {
                   return (
-                    <div key={item} className="flex flex-col gap-2">
+                    <div key={item.id} className="flex flex-col gap-2">
                       <h5 className="text-gray-800 font-medium">
-                        Can I move my booking to a future date?
+                        {item.title}
                       </h5>
                       <p className="text-gray-500 text-sm">
-                        Moving your booking to a future date depends on the
-                        policies of the reservation. Please sign in using either
-                        your Booking.com account or confirmation number and PIN,
-                        select the booking you want to change, and you’ll see
-                        what options are available.
+                        {item.description}
                       </p>
                     </div>
                   );
